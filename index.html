@@ -158,99 +158,220 @@
         </div>
     </div>
 
-    <div class=" wildlife-container">
-        <div class="text-center py-5">
+
+    <div class="wildlife-container">
+    <div class="text-center py-5">
         <h2 class="display-4 m-0 text-white">Explore Wildlife</h2>
-        </div>
-        <div id="carouselExampleControls" class="carousel slide px-5" data-bs-ride="false">
-            <div class="carousel-inner">
+        <p class=" m-0 text-white">Click to find out more about the unique species that call Clipperton home.</p>
+    </div>
 
+    <div id="carouselDesktop" class="carousel slide px-5 d-none d-md-block" data-bs-ride="false">
+        <div class="carousel-inner">
 
-                <div class="carousel-item active">
+            <!-- Desktop Slide 1 -->
+            <div class="carousel-item active">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
 
                     <div class="col">
-                    <a href="#"><div class="card h-100">
+                        <a href="#">
+                            <div class="card h-100">
+                                <img src="images/rainbow_wrass.png" class="card-img-top" alt="Rainbow Wrasse">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rainbow Wrasse</h5>
+                                    <p class="card-text">Thalassoma robertsoni</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="#">
+                            <div class="card h-100">
+                                <img src="images/masked_booby.jpg" class="card-img-top" alt="Masked Booby">
+                                <div class="card-body">
+                                    <h5 class="card-title">Masked Booby</h5>
+                                    <p class="card-text">Sula dactylatra</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="#">
+                            <div class="card h-100">
+                                <img src="images/clipperton_crab.png" class="card-img-top" alt="Clipperton Crab">
+                                <div class="card-body">
+                                    <h5 class="card-title">Clipperton Crab</h5>
+                                    <p class="card-text">Johngarthia oceanica</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Desktop Slide 2 -->
+            <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                    <div class="col">
+                        <a href="#">
+                            <div class="card h-100">
+                                <img src="images/frigatebird.jpg" class="card-img-top" alt="Frigate Bird">
+                                <div class="card-body">
+                                    <h5 class="card-title">Frigate Bird</h5>
+                                    <p class="card-text">Fregata magnificens</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="#">
+                            <div class="card h-100">
+                                <img src="images/copper_skink.jpg" class="card-img-top" alt="Copper-tailed Skink">
+                                <div class="card-body">
+                                    <h5 class="card-title">Copper-tailed Skink</h5>
+                                    <p class="card-text">Ctenotus taeniolatus</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="#">
+                            <div class="card h-100">
+                                <img src="images/cocos_booby.jpg" class="card-img-top" alt="Cocos Booby">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cocos Booby</h5>
+                                    <p class="card-text">Sula brewsteri</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDesktop" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDesktop" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div id="carouselMobile" class="carousel slide px-5 d-block d-md-none" data-bs-ride="false">
+        <div class="carousel-inner">
+            <!-- Mobile Slide 1 -->
+            <div class="carousel-item active">
+                <a href="#">
+                    <div class="card h-100">
                         <img src="images/rainbow_wrass.png" class="card-img-top" alt="Rainbow Wrasse">
                         <div class="card-body">
-                        <h5 class="card-title">Rainbow Wrasse</h5>
-                        <p class="card-text">Thalassoma robertsoni</p>
+                            <h5 class="card-title">Rainbow Wrasse</h5>
+                            <p class="card-text">Thalassoma robertsoni</p>
                         </div>
-                    </div></a>
                     </div>
+                </a>
+            </div>
 
-                    <div class="col">
-                    <a href="#"><div class="card h-100">
+            <!-- Mobile Slide 2 -->
+            <div class="carousel-item">
+                <a href="#">
+                    <div class="card h-100">
                         <img src="images/masked_booby.jpg" class="card-img-top" alt="Masked Booby">
                         <div class="card-body">
-                        <h5 class="card-title">Masked Booby</h5>
-                        <p class="card-text">Sula dactylatra</p>
+                            <h5 class="card-title">Masked Booby</h5>
+                            <p class="card-text">Sula dactylatra</p>
                         </div>
-                    </div></a>
                     </div>
-                    
-                    <div class="col">
-                    <a href="#"><div class="card h-100">
+                </a>
+            </div>
+
+            <!-- Mobile Slide 3 -->
+            <div class="carousel-item">
+                <a href="#">
+                    <div class="card h-100">
                         <img src="images/clipperton_crab.png" class="card-img-top" alt="Clipperton Crab">
                         <div class="card-body">
-                        <h5 class="card-title">Clipperton Crab</h5>
-                        <p class="card-text">Johngarthia oceanica</p>
+                            <h5 class="card-title">Clipperton Crab</h5>
+                            <p class="card-text">Johngarthia oceanica</p>
                         </div>
-                    </div></a>
                     </div>
-                    
-                </div>
-                </div>
+                </a>
+            </div>
 
-                <!-- Slide 2 -->
-                <div class="carousel-item">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                    <a href="#"><div class="card h-100">
+            <!-- Mobile Slide 4 -->
+            <div class="carousel-item">
+                <a href="#">
+                    <div class="card h-100">
                         <img src="images/frigatebird.jpg" class="card-img-top" alt="Frigate Bird">
                         <div class="card-body">
-                        <h5 class="card-title">Frigate Bird</h5>
-                        <p class="card-text">Fregata magnificens</p>
+                            <h5 class="card-title">Frigate Bird</h5>
+                            <p class="card-text">Fregata magnificens</p>
                         </div>
-                    </div></a>
                     </div>
-                    
-                    <div class="col">
-                    <a href="#"><div class="card h-100">
+                </a>
+            </div>
+
+            <!-- Mobile Slide 5 -->
+            <div class="carousel-item">
+                <a href="#">
+                    <div class="card h-100">
                         <img src="images/copper_skink.jpg" class="card-img-top" alt="Copper-tailed Skink">
                         <div class="card-body">
-                        <h5 class="card-title">Copper-tailed Skink</h5>
-                        <p class="card-text">Ctenotus taeniolatus</p>
+                            <h5 class="card-title">Copper-tailed Skink</h5>
+                            <p class="card-text">Ctenotus taeniolatus</p>
                         </div>
-                    </div></a>
                     </div>
-                    
-                    <div class="col">
-                    <a href="#"><div class="card h-100">
+                </a>
+            </div>
+
+            <!-- Mobile Slide 6 -->
+            <div class="carousel-item">
+                <a href="#">
+                    <div class="card h-100">
                         <img src="images/cocos_booby.jpg" class="card-img-top" alt="Cocos Booby">
                         <div class="card-body">
-                        <h5 class="card-title">Cocos Booby</h5>
-                        <p class="card-text">Sula brewsteri</p>
+                            <h5 class="card-title">Cocos Booby</h5>
+                            <p class="card-text">Sula brewsteri</p>
                         </div>
-                    </div></a>
                     </div>
-                    
-                </div>
-                </div>
-
+                </a>
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            </div>
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMobile" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselMobile" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</div>
+
      
+<footer class="py-4 mt-4">
+    <ul class="nav justify-content-center pb-3 mb-3 ">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Biodiversity</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">History</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Travel</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Merchandise</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2024 The Cusp of Discovery. All rights reserved.</p>
+</footer>
     
     
 

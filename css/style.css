@@ -45,12 +45,14 @@ a {
 
 @media (max-width: 768px) {
     .masthead {
-        min-height: 50vh;
+        min-height: 60vh;
     }
+
 }
 
 .custom-navbar,
-.custom-navbar .offcanvas {
+.custom-navbar .offcanvas,
+footer {
     background-color: rgb(48, 241, 209) !important;
 }
 
