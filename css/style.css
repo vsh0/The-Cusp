@@ -53,7 +53,12 @@ a {
 .custom-navbar,
 .custom-navbar .offcanvas,
 footer {
-    background-color: rgb(48, 241, 209) !important;
+    background-color: rgb(48, 241, 209);
+}
+
+.border-bottom {
+    border-color: rgb(42, 214, 205) !important;
+    border-width: 1px !important;
 }
 
 .custom-navbar .navbar-brand,
