@@ -16,6 +16,17 @@ a {
     text-decoration: none;
 }
 
+::-moz-selection {
+    /* Code for Firefox */
+    color: rgb(255, 255, 255);
+    background: rgb(122, 207, 25) 80%;
+}
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(122, 207, 25) 80%;
+}
+
 .masthead {
     background-size: cover;
     min-height: 90vh;
